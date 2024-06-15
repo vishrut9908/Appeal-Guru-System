@@ -1,0 +1,5 @@
+<div class="card-body">
+                                <asp:Button ID="Button1" runat="server" Text="Create" CssClass="btn btn-primary" style="background: var(--bs-orange);" OnClick="Button1_Click"/>
+                                    <asp:Textbox ID="view" CssClass="form-control" runat="server" Text="Zoom Meeting Details" Rows="3" TextMode="MultiLine"></asp:Textbox>
+                                <button class="btn btn-primary" type="button" style="background: var(--bs-orange);">Start Meeting</button>
+                            </div>
